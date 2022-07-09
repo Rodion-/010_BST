@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       #- name: Delete cache
       #  run: rm CMakeCache.txt 
-      - name: install boost
-        run: sudo apt-get update && sudo apt-get install libboost-all-dev -y
+      #- name: install boost
+      #  run: sudo apt-get update && sudo apt-get install libboost-all-dev -y
       #- name: install libboost-filesystem
       #  run: sudo apt-get update && sudo apt-get install libboost-filesystem-dev -y
       - name: Run a one-line script
