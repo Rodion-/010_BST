@@ -44,5 +44,5 @@ jobs:
         run: cmake --install ./
 
       - name: run            
-        run: ./algo10
+        run: ./algo10_2
         
