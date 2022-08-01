@@ -88,6 +88,11 @@ class BST
     {
         return value;
     }
+
+    void free_mem ( void )
+    {
+        delete this;
+    }
 };
 
 #endif // BST_H

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-set( prj_name algo10_2 )
+set( prj_name algo10_3 )
 
 project(${prj_name} VERSION 1.0)
 
